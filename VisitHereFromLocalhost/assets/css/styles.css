@@ -1,0 +1,12 @@
+#sidebar-wrapper {
+  background-image:url('p16.jpg');
+  /*backface-visibility:100%;*/
+}
+
+body {
+  margin:0;
+  background-image:url('../../assets/img/p18.jpg');
+  background-attachment:fixed;
+  background-size:100%;
+}
+
