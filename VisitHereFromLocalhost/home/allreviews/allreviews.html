@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>allreviews.html</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=News+Cycle:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/css/user.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+    <link rel="stylesheet" href="assets/css/untitled-1.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+	<style>
+	.in
+	{
+	border-radius:20px;
+	}
+	body{
+	font-family:quicksand;}
+	form
+	{
+	width:400px;
+	position:relative;
+	left:40%;
+	transform:translateX(-50%);
+	}
+	button.btn
+	{
+	border-radius:0em;
+	position:relative;
+	left:26%;
+	transform:translateX(-50%);
+	}
+	.middle
+	{
+	background:#262626;
+	text-align:center;
+	margin-left:40%;
+	margin-right:-15%;
+	}
+	</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand" href="#"> <i class="glyphicon glyphicon-lamp"></i>NIRVANA EXOTICA</a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li role="presentation"><a href="../hotelnirvana.html">Home </a></li>
+                    <li role="presentation"><a href="../../fullstackfinal/contactUs.php">Contact Us</a></li>
+                    <li role="presentation"><a href="../hotelnirvana.html">BOOK MY STAY</a></li>
+                </ul><form action="../../adminlogin.php"><button class="btn btn-primary navbar-btn navbar-right" type="submit"><strong>SIGN UP</strong></button></form></div>
+        </div>
+    </nav>
+    <div></div>
+    <div class="container-fluid">
+        <div class="row">
+            
+                <div class="middle"><h3> Your Feedback Is Precious for Us!&nbsp; </h3></div>
+         
+        </div>
+    </div>
+    <form class="form-horizontal" action="feedback.php" method="POST"><input class="form-control in" type="text" name="fname" required="" placeholder="FIRST NAME"><input class="form-control in" type="text" name="lname" required="" placeholder="LAST NAME"><input class="form-control in" type="email" name="email" required="" placeholder="EMAIL">
+        <select
+            class="form-control in" name="city" value="Place" required="">
+            <option class="in" value="13">JALANDHAR</option>
+            <option class="in" value="14">NEW DELHI</option>
+            <option class="in" value="15">MUMBAI</option>
+            </select><textarea class="form-control input-lg in" rows="10" spellcheck="true" name="review" placeholder="Please write here.."></textarea><span class="label label-danger in" style="height:40px;">Ratings </span><select class="form-control in" name="rating" required=""><option value="12" selected="">5</option><option value="13">4</option><option value="14">3</option><option value="2">2</option><option value="1">1</option></select>
+            <button
+                class="btn btn-info active btn-block btn-lg show in" type="submit" name="submit">SUBMIT </button>
+    </form>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
